@@ -1,0 +1,24 @@
+:root {
+    --img-path1: url(../image/img01.jpg);
+    --img-path2: url(../image/img02.jpg);
+    --img-path3: url(../image/img03.jpg);
+    --position: center center/cover no-repeat fixed;
+}
+
+.image1 {
+    background: var(--img-path1) var(--position);
+    width: 100vw;
+    height: 100vh;
+}
+
+.image2 {
+    background: var(--img-path2) var(--position);
+    width: 100vw;
+    height: 100vh;
+}
+
+.image3 {
+    background: var(--img-path3) var(--position);
+    width: 100vw;
+    height: 100vh;
+}
